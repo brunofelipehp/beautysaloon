@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OriginSix</title>
+
+  <!-- Icones -->
+  <link rel="stylesheet" href="./assets/fonts/style.css">
+
   <!-- STYLES -->
   <link rel="stylesheet" href="./style.css">
 
@@ -17,12 +21,21 @@
 </head>
 <body>
   <header id="header">
-
     <nav class="container">
       <a class="logo" href="#">beauty<span>salon</span>.</a>
-      <div class="menu">...</div>
+      <!-- menu -->
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="#home">Início</a></li>
+          <li><a class="title" href="#about">Sobre</a></li>
+          <li><a class="title" href="#services">Serviços</a></li>
+          <li><a class="title" href="#testimonials">Depoimentos</a></li>
+          <li><a class="title" href="#contact">Contato</a></li>
+        </ul>
+      </div> <!-- /menu -->
+      <div class="toggle icon-menu"></div>
+      <div class="toggle icon-close"></div>
     </nav>
-   
   </header>
 
   <main>
@@ -36,7 +49,7 @@
         />
         </div>
         <div class="text">
-          <h1>Saúde natural para os seus cabelos</h1>
+          <h2 class="title">Saúde natural para os seus cabelos</h2>
           <p>
            um salão exclusivo em São Paulo, especializado em
            tratamento naturais.
@@ -46,7 +59,73 @@
       </div>
     </section>
     <div class="divider-1"></div>
+
+    <section class="section" id="about">
+      <div class="container grid">
+        <div class="image">
+          <img 
+          src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" 
+          alt="3 mulheres sorrindo">
+        </div>
+        <div class="text">
+          <h2 class="title">Sobre nós</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Eveniet similique corporis molestias possimus fuga itaque quo. Aut tenetur consequuntur maiores enim nesciunt aliquam, hic delectus, amet vel perferendis eligendi iste.
+          </p>
+          
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Quibusdam quae atque eos sed corporis, facere, blanditiis obcaecati officia repellat, impedit ipsum incidunt commodi cum sequi odit error ad deserunt nihil.
+          </p>
+          
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Cum, at. Ipsum delectus explicabo enim voluptate perferendis, accusamus corrupti ut libero quae esse similique fuga! Ipsum amet quos quo iure qui.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section class="section" id="services">
+      <div class="container grid">
+        <header>
+          <h2 class="title">Serviços</h2>
+          <p>
+            Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já conquistou
+            clientes de inúmeros países com seus tratamentos exclusivos e
+            totalmente naturais
+          </p>
+        </header>
+        <div class="cards grid">
+          <div class="card">
+            <i class="icon-woman-hair"></i>
+            <h3 class="title">terapia capilar</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vero neque cum nemo debitis facilis. 
+          </div>
+          <div class="card">
+            <i class="icon-trim"></i>
+            <h3 class="title">cortes</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vero neque cum nemo debitis facilis.
+            </p>
+          </div>
+          <div class="card">
+            <i class="icon-cosmetic"></i>
+            <h3 class="title">tratamentos</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt vero neque cum nemo debitis facilis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
   </main>
   
+  <script src="main.js" type="text/javascript"></script>
 </body>
 </html>
