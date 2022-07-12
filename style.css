@@ -112,6 +112,10 @@ body {
   margin-bottom: 1rem
 }
 
+.section .title {
+  font-size: var(--subtitle-font-size);
+}
+
 .section header {
   margin-bottom: 4rem;
 }
@@ -536,10 +540,16 @@ footer .social a:hover {
 }
 
 /* ====================== MEDIA QUERIES  ======================= */
+/*  large devices: 1200px > */
+@media (min-width: 1200px){
+  
+}
+
 
 /*  large devices: 992 > */
 @media (min-width: 992px) {
   :root {
-    --title-font-size: 2.2rem;
+    --title-font-size: 2.25rem;
+    --subtitle-font-size: 1.125rem;
   }
 }
