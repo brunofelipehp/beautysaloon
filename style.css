@@ -450,12 +450,14 @@ nav.show div.icon-close {
 
 /* ====================== CONTACT  ======================= */
 
+
+/*====  CONTACT ============================ */
 #contact .grid {
   gap: 4rem;
 }
 
 #contact .text p {
- margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 #contact .button i,
@@ -476,7 +478,6 @@ nav.show div.icon-close {
 #contact ul li i {
   color: var(--base-color);
 }
-
 /* ====================== FOOTER  ======================= */
 
 footer {
