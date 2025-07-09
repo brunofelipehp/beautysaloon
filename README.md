@@ -1,6 +1,6 @@
 # 💇‍♀️ BeautySaloon
 
-![Preview do Projeto](./assets/preview.png)
+![Preview do Projeto](./preview.png)
 
 Página responsiva que simula a interface de um salão de beleza. Desenvolvido com HTML, CSS e JavaScript puro.
 
